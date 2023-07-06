@@ -1,0 +1,89 @@
+.formulario{
+    height: 600px;
+
+    .contactanos{
+        text-align: center;
+        color: #e83988;
+        font-size: 2rem;
+        padding: 40px;
+    }
+
+    .flexItemsForm .formulario2{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        gap: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        input{
+            padding: 5px;
+            width: 35%;
+            border-radius: 10px;
+            border: 1px solid #e83988;
+        }
+        textarea{
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #e83988;
+        }
+        .boton{
+            background: #e83988;
+            color: #ffffff;
+
+            &:hover{
+                background-color: #e95242;
+            }
+        }
+    }
+
+    @media screen and (max-width:480px){
+        .formulario{
+            height: 500px;
+            font-family: $font;
+        
+            .contactanos{
+                text-align: center;
+                color: $fucsiaColor;
+                font-family: $font;
+                font-size: 2rem;
+                padding: 40px;
+            }
+        
+            .flexItemsForm .formulario2{
+                margin: auto;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                gap: 20px;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+        
+            .formu{
+                padding: 5px;
+                width: 70%;
+                border-radius: 10px;
+                border: 1px solid $fucsiaColor;
+            }
+        
+            textarea{
+                padding: 5px;
+                border-radius: 10px;
+                border: 1px solid $fucsiaColor;
+            }
+        
+            .boton{
+                background: $fucsiaColor;
+                color: #ffffff;
+        
+                &:hover{
+                    background-color: $orangeColor;
+                }
+            }
+        }
+}
+}

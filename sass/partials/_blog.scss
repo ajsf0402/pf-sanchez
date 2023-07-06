@@ -1,0 +1,79 @@
+.blog {
+    Padding: 40px;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+
+    .univ {
+        text-align: center;
+    }
+    .paso{
+        width: 100%;
+
+        .comoEncuadernar {
+            color: #e83988;
+            margin-top: 60px;
+            font-size: 18px;
+        }
+        
+        img{
+            margin: 20px;
+            width: 40%;
+            text-align: left;
+            margin:2%;
+        }
+    }
+
+    .clases ul {
+        text-decoration: none;
+        margin-left: 40px;
+        padding: 40px;
+       
+    }
+
+    @media screen and (max-width:480px) {
+        .blog {
+            margin: 40px;
+            text-align: center;
+            width: 100%;
+            font-family: $font;
+            text-decoration: none;
+    
+            .univ {
+                width: 90%;
+                text-align: center;
+            }
+    
+            .paso {
+                width: 90%;
+    
+                .comoEncuadernar {
+                    color: $fucsiaColor;
+                    margin-top: 20px;
+                    font-size: 18px;
+                    text-align: center;
+                    width: 80%;
+                }
+    
+                img {
+                    width: 70%;
+                    text-align: left;
+                    margin-left: 40px;
+                }
+    
+                .clases ul {
+                    text-decoration: none;
+                    margin-left: 40px;
+                    padding: 40px;
+                    width: 70%;
+    
+                    li {
+                        text-align: center;
+                        width: 70%;
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }
+}

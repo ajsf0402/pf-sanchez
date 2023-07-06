@@ -1,0 +1,43 @@
+footer {
+  width: 100%;
+  font-family: $font;
+  height: 320px;
+  background-color: $backColor;
+  font-size: 18px;
+
+  .footer-grid {
+    padding: 25px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+
+    .foo-items-1 {
+      background: none;
+    }
+
+    nav ul li {
+      list-style: none;
+      display: block;
+      line-height: 2.7rem;
+
+      a {
+        color: $orangeColor;
+        text-decoration: none;
+      }
+    }
+
+    .redes-sociales-2 {
+      font-family: $font;
+      color: $orangeColor;
+    }
+
+    .foo-items img {
+        width: 30px;
+    }
+    .foo-items .logo2 {
+      width: 200px;
+  }
+  }
+}
